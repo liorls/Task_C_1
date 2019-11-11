@@ -1,5 +1,7 @@
 #include "myMath.h"
-
+/*
+Include of myMath file headers
+*/
 
 double Pow(double x , int y){
 
@@ -8,8 +10,7 @@ double result =1;
     {
         result=result*x;
     }
-    return result ;
-    
+    return result ;  
 }
 
 double Exp(int x){
