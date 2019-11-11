@@ -1,7 +1,8 @@
-main:
-	gcc -o main.o main.c
-	gcc -o myMaths.o myMaths.c
-	./main.o
-	./myMaths.o
-git: 
-	git status
+mymaths: power.o basicMaths.o
+	ar -rcs libmyMath.a basicMaths.c power.c
+
+mymathd: power.c basicMath.c
+	gcc -o libmyMath.so power.c basicMath.c
+
+all: mymaths mymathd
+	
