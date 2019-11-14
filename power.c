@@ -5,6 +5,7 @@ Include of myMath file headers
 
 
 double Exp(int x){
+    
 double expo=2.71828;
 double temp=1;
 for (int i = 0; i < x; i++)

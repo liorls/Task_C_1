@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "myMath.h"
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
 
 double input;
 printf("Please inset a real number: ");

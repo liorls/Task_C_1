@@ -12,8 +12,7 @@ float sub(float x , float y){
         return x-y;
 }
 
-double mul(double x , int y)
-{
+double mul(double x , int y){
     return x*(double)y;
 }
 
